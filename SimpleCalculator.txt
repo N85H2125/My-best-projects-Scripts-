@@ -1,0 +1,19 @@
+Python 3.14.2 (tags/v3.14.2:df79316, Dec  5 2025, 17:18:21) [MSC v.1944 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> print("SimpleCalculator")
+... num1 = int(input('Write frist number'))
+... action = input('Write action +,-,/,*')
+... num2 = int(input('Write second number'))
+... result = None
+... if action == '+':
+...     result = num1 + num2
+... elif action == '-':
+...     result = num1 - num2
+... elif action == "/":
+...     result = num1 / num2
+... elif action == '*':
+...     result = num1 * num2
+... else:
+...     print("error")
+... print(result)
+... print('Again?')
